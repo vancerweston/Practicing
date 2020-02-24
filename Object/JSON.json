@@ -1,0 +1,31 @@
+
+// JSON (JavaScript Object Notation)
+    // a notation is the {} curly braces
+    // JSON syntax requires double quotes ""
+
+{
+    "firstName": "Vance",
+    "lastName": "Weston",
+    "hairColor": "Blond",
+    "eyeColor": "Hazel",
+    "age": 21,
+    "height": 72.5,
+    "favoriteBooks": [
+        {"sweet": "candy"},
+        "Percy Jackson",
+        "Pendragon",
+        "The Ranger's Aprrentice"
+    ],
+    "cat": {
+        "breed": "orange tabby",
+        "weight": "25lbs",
+        "name": "Henry"
+    }
+}
+  
+// pushed back to JavaScript Syntax below
+
+let personVance = // data we got back from web
+            // service is parsed and stuck in
+            // this variable
+personVance.favoriteBooks[0] //Percy Jackson
